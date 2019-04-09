@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/1alexvash/Meditation/precache-manifest.43b361aaf871b6c92175adcfa89d677c.js"
+  "/Meditation/precache-manifest.35e9dd798d869bae1fac37ed96420b80.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/1alexvash/Meditation/index.html", {
+workbox.routing.registerNavigationRoute("/Meditation/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

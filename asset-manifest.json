@@ -1,14 +1,14 @@
 {
-  "main.css": "/1alexvash/Meditation/static/css/main.5b1544e1.chunk.css",
-  "main.js": "/1alexvash/Meditation/static/js/main.be4d3c41.chunk.js",
-  "main.js.map": "/1alexvash/Meditation/static/js/main.be4d3c41.chunk.js.map",
-  "runtime~main.js": "/1alexvash/Meditation/static/js/runtime~main.0cd9c06f.js",
-  "runtime~main.js.map": "/1alexvash/Meditation/static/js/runtime~main.0cd9c06f.js.map",
-  "static/js/2.6efc73d3.chunk.js": "/1alexvash/Meditation/static/js/2.6efc73d3.chunk.js",
-  "static/js/2.6efc73d3.chunk.js.map": "/1alexvash/Meditation/static/js/2.6efc73d3.chunk.js.map",
-  "index.html": "/1alexvash/Meditation/index.html",
-  "precache-manifest.43b361aaf871b6c92175adcfa89d677c.js": "/1alexvash/Meditation/precache-manifest.43b361aaf871b6c92175adcfa89d677c.js",
-  "service-worker.js": "/1alexvash/Meditation/service-worker.js",
-  "static/css/main.5b1544e1.chunk.css.map": "/1alexvash/Meditation/static/css/main.5b1544e1.chunk.css.map",
-  "static/media/ocean-waves.mp3": "/1alexvash/Meditation/static/media/ocean-waves.234a56ee.mp3"
+  "main.css": "/Meditation/static/css/main.5b1544e1.chunk.css",
+  "main.js": "/Meditation/static/js/main.914a8517.chunk.js",
+  "main.js.map": "/Meditation/static/js/main.914a8517.chunk.js.map",
+  "runtime~main.js": "/Meditation/static/js/runtime~main.f9488bc8.js",
+  "runtime~main.js.map": "/Meditation/static/js/runtime~main.f9488bc8.js.map",
+  "static/js/2.6efc73d3.chunk.js": "/Meditation/static/js/2.6efc73d3.chunk.js",
+  "static/js/2.6efc73d3.chunk.js.map": "/Meditation/static/js/2.6efc73d3.chunk.js.map",
+  "index.html": "/Meditation/index.html",
+  "precache-manifest.35e9dd798d869bae1fac37ed96420b80.js": "/Meditation/precache-manifest.35e9dd798d869bae1fac37ed96420b80.js",
+  "service-worker.js": "/Meditation/service-worker.js",
+  "static/css/main.5b1544e1.chunk.css.map": "/Meditation/static/css/main.5b1544e1.chunk.css.map",
+  "static/media/ocean-waves.mp3": "/Meditation/static/media/ocean-waves.234a56ee.mp3"
 }
