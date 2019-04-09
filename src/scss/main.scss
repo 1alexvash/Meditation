@@ -1,0 +1,125 @@
+// This scss file is compiled with a vscode extension
+// vscode-live-sass-compiler
+// https://github.com/ritwickdey/vscode-live-sass-compiler
+
+@import "reset";
+@import "responsive";
+
+body {
+  background: black;
+}
+
+.App {
+  font-size: 20px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: white;
+  margin: 20px auto;
+  padding: 20px;
+  width: 320px;
+  @include responsive(440px) {
+    width: 100%;
+  }
+  .heading {
+    font-size: 1.25em;
+    line-height: 1.25em;
+    text-shadow: 1px 2px 3px #333;
+  }
+  .meditation-time {
+    margin: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    button {
+      cursor: pointer;
+      width: 33.33%;
+      background: darken(deepskyblue, 5%);
+      padding: 8px 20px;
+      transition: 0.3s;
+      border: 2px solid black;
+      color: white;
+      text-shadow: 1px 2px 3px #333;
+      &:first-child {
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+      }
+      &:last-child {
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+      }
+      &:hover {
+        box-shadow: 1px 2px 8px deepskyblue, -2px -1px 8px deepskyblue;
+        z-index: 1;
+      }
+    }
+  }
+  .music {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    input[type="checkbox"] {
+      cursor: pointer;
+      width: 20px;
+      height: 20px;
+      margin-left: 20px;
+      display: inline-block;
+    }
+  }
+  .meditating {
+    .outer-circle {
+      position: relative;
+      width: 128px;
+      height: 128px;
+      background: deepskyblue;
+      border-radius: 50%;
+      margin: auto;
+      .inner-circle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 128px;
+        height: 128px;
+        background: white;
+        box-shadow: 1px 2px 3px #333, 0px 0px 10px #333;
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+        animation: circleAnimation 5s alternate infinite;
+        @keyframes circleAnimation {
+          from {
+            width: 0;
+            height: 0;
+          }
+          to {
+            width: 120px;
+            height: 120px;
+          }
+        }
+      }
+    }
+    .tip {
+      margin: 20px 0;
+      text-align: center;
+      font-size: 24px;
+      color: white;
+      animation: blinking 10s alternate infinite;
+      @keyframes blinking {
+        from {
+          opacity: 1;
+        }
+        40% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+        60% {
+          opacity: 1;
+        }
+        90% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+    }
+  }
+}
