@@ -1,4 +1,4 @@
-# Math
+# Meditation
 
 This app will help to relax
 
