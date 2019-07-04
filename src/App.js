@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import "./scss/main.css";
 import Sound from "./music/ocean-waves.mp3";
+import noSleepLibrary from "nosleep.js";
+
+// library that prevents mobile from diming
+let noSleep = new noSleepLibrary();
 
 class App extends Component {
   state = {
@@ -17,6 +21,7 @@ class App extends Component {
     if (isMusicAllowed) {
       sound.play();
     }
+    noSleep.enable();
 
     this.setState({ isMeditating: true });
 
@@ -37,6 +42,7 @@ class App extends Component {
       // Stop playing music
       sound.pause();
       sound.currentTime = 0;
+      noSleep.disable();
     }, 60000 * time); // Stop meditation
   }
 
